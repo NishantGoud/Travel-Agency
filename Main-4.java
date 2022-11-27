@@ -19,11 +19,10 @@ class Main
         sc.nextLine();
         }
         for(int i=0;i<t;i++)
-        { int j=1;
-            System.out.println("\nPassenger-"+ j);
+        { int j=i;
+            System.out.println("\nPassenger-"+ ++j);
             System.out.println("Name \t \t Age \t \t Phone No");
             System.out.println(name[i]+"\t \t"+age[i]+"\t \t"+phno[i]);
-            j++;
         /*System.out.println("name: "+name[i]);
         System.out.println("age; "+age[i]);
         System.out.println("phno: "+phno[i]);*/
@@ -45,7 +44,7 @@ class Main
         System.out.println("enter no of tcikets");
          int t=sc.nextInt();
         Passenger(t);
-         System.out.println("\nTotal price- "+p[ch]*t);
+         System.out.println("\nTotal price- "+p[--ch]*t);
         System.out.println("Your order is confirmed");
         
         
