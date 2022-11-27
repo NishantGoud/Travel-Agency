@@ -83,7 +83,7 @@ public static void main (String[] args)
     ans=sc.next();
     
     }
-    while(ans=="y");
+    while(ans.equalsIgnoreCase("yes"||"y"));
 
     
 }
